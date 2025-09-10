@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="container-fluid">
         {/* Navbar brand (logo/title) */}
         <a className="navbar-brand" href="#">
-          EMS System - {username ? `Hello, ${username}` : "Not logged in"}
+          EMS Systems - {username ? `Hello, ${username}` : "Not logged in"}
         </a>
         {/* Right side: links */}
         <div>
